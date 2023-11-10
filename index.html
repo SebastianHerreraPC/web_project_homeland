@@ -4,20 +4,27 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./pages/index.css" />
-
     <title>De patria a patria</title>
   </head>
   <body>
     <header class="header">
-      <img src="images/logo.svg" alt="Logo_practicum" class="logo" />
+      <img
+        src="./images/photo-grid/logo.svg"
+        alt="Logo-Practicum"
+        class="header__logo"
+      />
     </header>
-    <main class="content">
+    <main class="main">
       <section class="lead">
         <h1 class="lead__title">De patria a patria</h1>
         <h3 class="lead__subtitle">
           Un viaje épico de Kentucky a Burundi pasando por Gales y Ucrania
         </h3>
-        <img src="./images/15.jpg" alt="playa-byn" class="lead__image" />
+        <img
+          class="lead__image"
+          src="/images/places/header.jpg"
+          alt="Cuidad-costera-byn"
+        />
       </section>
       <section class="intro">
         <h2 class="intro__title">
@@ -28,10 +35,9 @@
           Todo ser humano es un artista, un ser de la libertad, llamado a
           participar en la transformación y reforma de las condiciones, el
           pensamiento y las estructuras que conforman e influyen en nuestras
-          vidas.
-          <span class="quote"> — Joseph Beuys</span>
+          vidas.<span class="intro__quote">— Joseph Beuys</span>
         </p>
-        <h5 class="intro__text">
+        <h5 class="intro__complementary">
           La ciudad de Practicum ha reunido a profesionales de diferentes
           rincones del mundo. Hoy, la Galería de Arte Practicum se enorgullece
           de presentar historias y fotografías de algunas de las personas que
@@ -44,22 +50,315 @@
         </h5>
       </section>
       <section class="photo-grid">
-        <img src="./images/6.jpg" alt="Rainbow-Pic" class="photo_gallery" />
-        <img src="./images/3.jpg" alt="Ocean-City-Pic" class="photo_gallery" />
-        <img src="./images/8.jpg" alt="Church-Pic" class="photo_gallery" />
-        <img src="./images/9.jpg" alt="Bridge-Town" class="photo_gallery" />
-        <img src="./images/1.jpg" alt="Clouds-Plains" class="photo_gallery" />
-        <img src="./images/11.jpg" alt="Bushes-Posters" class="photo_gallery" />
-        <img src="./images/12.jpg" alt="Kasubi-Tombs" class="photo_gallery" />
         <img
-          src="./images/13.jpg"
-          alt="Downhill-Houses"
-          class="photo_gallery"
+          src="./images/photo-grid/pic1.png"
+          alt="rainbow-pic"
+          class="photo-grid__item"
+        />
+        <img
+          src="./images/photo-grid/pic2.png"
+          alt="cloud-city"
+          class="photo-grid__item"
+        />
+        <img
+          src="./images/photo-grid/pic3.png"
+          alt="church-city"
+          class="photo-grid__item"
+        />
+        <img
+          src="./images/photo-grid/pic4.png"
+          alt="bridge-city"
+          class="photo-grid__item"
+        />
+        <img
+          src="./images/photo-grid/pic5.png"
+          alt="plains"
+          class="photo-grid__item"
+        />
+        <img
+          src="./images/photo-grid/pic6.png"
+          alt="green-bushes"
+          class="photo-grid__item"
+        />
+        <img
+          src="./images/photo-grid/pic7.png"
+          alt="tombs"
+          class="photo-grid__item"
+        />
+        <img
+          src="./images/photo-grid/pic8.png"
+          alt="two-houses"
+          class="photo-grid__item"
         />
       </section>
-      <section class="places"></section>
-      <section class="cover"></section>
+      <section class="places">
+        <ul class="place">
+          <li class="place__title">
+            <h2 class="place__title-text">Kiev, Ucrania</h2>
+          </li>
+          <li class="place__artist">
+            <h4>
+              Artista<span class="place__artist-name"
+                >Natalia Dolgushina, productora de contenidos</span
+              >
+            </h4>
+          </li>
+          <li class="place__pic">
+            <img
+              class="place__pic"
+              src="./images/places/ucrania.png"
+              alt="Ucrania-pic"
+            />
+          </li>
+          <li class="place__text">
+            <p>
+              Kiev (o Kyiv), la capital de Ucrania, es una gran ciudad situada a
+              orillas del río Dniéper. Por supuesto, nadie en su sano juicio se
+              bañaría en el río, a menos que se haya criado aquí, en cuyo caso
+              probablemente lo haya intentado en algún momento. Los veranos son
+              calurosos aquí, y los inviernos con fuertes corrientes de aire,
+              pero el otoño y la primavera son absolutamente increíbles.
+            </p>
+            <p>
+              La ciudad en sí es una mezcla de arquitectura prerrevolucionaria,
+              de posguerra y soviética, toda ella salpicada de balcones
+              modificados. Si te encuentras en la orilla derecha del Dniéper, el
+              paisaje es difícil de atravesar para las personas en bicicleta y
+              las que llevan tacones. Sin embargo, la orilla izquierda es
+              considerada mucho menos interesante y prestigiosa, incluso por la
+              gente que vive en las afueras de la derecha.
+            </p>
+          </li>
+          <li class="button place__button">
+            <a
+              class="buy-link"
+              href="https://www.theverge.com/22310188/nft-explainer-what-is-blockchain-crypto-art-faq"
+              target="_blank"
+              >Compra esta obra de arte como NFT</a
+            >
+          </li>
+        </ul>
+        <ul class="place">
+          <li class="place__title">
+            <h2 class="place__title-text">Criccieth, Gales</h2>
+          </li>
+          <li class="place__artist">
+            <h4>
+              Artistas<span class="place__artist-name"
+                >Steffan Warren, editor principal</span
+              ><span class="place__artist-name"
+                >Glagoleva, directora del proyecto</span
+              >
+            </h4>
+          </li>
+          <li class="place__pic">
+            <img
+              class="place__pic"
+              src="./images/places/gales.png"
+              alt="Gales-Pic"
+            />
+          </li>
+          <li class="place__text">
+            <p>
+              La ruina medieval del castillo de Criccieth domina la ciudad desde
+              una roca que se adentra en el mar. Se cree que fue construido por
+              Llewelyn el Grande en el siglo XIII. Unos 900 años después, la
+              autodenominada *Perla de Gales a orillas de Snowdonia* se ha
+              convertido en un popular destino turístico durante los meses de
+              verano.
+            </p>
+            <p>
+              A poca distancia del castillo, se puede disfrutar del mejor helado
+              del mundo en Cadwalader's, cuyo ingrediente secreto se rumorea que
+              son las algas de la zona. Otro reclamo a la fama es el hecho de
+              que Criccieth ganó el premio *Wales in Bloom* durante cinco años
+              consecutivos por sus espectaculares exhibiciones florales
+              alrededor de la ciudad. También fue el hogar de David Lloyd
+              George, el único galés que ocupó el cargo de Primer Ministro del
+              Reino Unido.
+            </p>
+          </li>
+          <li class="button place__button">
+            <a
+              class="buy-link"
+              href="https://www.theverge.com/22310188/nft-explainer-what-is-blockchain-crypto-art-faq"
+              target="_blank"
+              >Compra esta obra de arte como NFT</a
+            >
+          </li>
+        </ul>
+        <ul class="place">
+          <li class="place__title">
+            <h2 class="place__title-text">Berea, Estados Unidos</h2>
+          </li>
+          <li class="place__artist">
+            <h4>
+              Artista<span class="place__artist-name"
+                >Travis Turner, autor y editor</span
+              >
+            </h4>
+          </li>
+          <li class="place__pic">
+            <img
+              class="place__pic"
+              src="./images/places/usa.png"
+              alt="USA-pic"
+            />
+          </li>
+          <li class="place__text">
+            <p>
+              Berea es una pequeña ciudad situada en la parte central de
+              Kentucky. La ciudad está rodeada de hermosos bosques y campos. Es
+              conocida como la capital del arte y la artesanía del estado, y los
+              visitantes encontrarán muchas oportunidades de compra: tiendas con
+              joyas hechas a mano, velas, artículos de madera, galerías,
+              estudios de vidrio y mucho más. La ciudad celebra cada año un
+              festival en el que se festeja el "spoonbread", un plato local
+              hecho con pan de maíz y servido con una cuchara de madera.
+            </p>
+            <p>
+              Sin embargo, es probablemente más conocido por la universidad
+              local Berea College se fundó en 1855 y fue la primera universidad
+              del sur de EE.UU. en estar integrada racialmente, así como la
+              primera en ser coeducativa. De manera singular, no cobra
+              matrícula: todos los estudiantes reciben una beca de matrícula
+              completa.
+            </p>
+          </li>
+          <li class="button place__button">
+            <a
+              class="buy-link"
+              href="https://www.theverge.com/22310188/nft-explainer-what-is-blockchain-crypto-art-faq"
+              target="_blank"
+              >Compra esta obra de arte como NFT</a
+            >
+          </li>
+        </ul>
+        <ul class="place">
+          <li class="place__title">
+            <h2 class="place__title-text">Muramvya, Burundi</h2>
+          </li>
+          <li class="place__artist">
+            <h4>
+              Artista<span class="place__artist-name"
+                >Grevisse Kenguruka, editor técnico</span
+              >
+            </h4>
+          </li>
+          <li class="place__pic">
+            <img
+              class="place__pic"
+              src="./images/places/burundi.png"
+              alt="Burundi-pic"
+            />
+          </li>
+          <li class="place__text">
+            <p>
+              Muramvya es una de las 18 provincias de Burundi. En la época del
+              reino, Muramvya era la capital real y en 2007, por su cultura y
+              paisaje natural, fue incluida en la lista indicativa del
+              Patrimonio Cultural Mundial de la UNESCO. Está situada en el
+              centro de Burundi, entre las capitales política y económica del
+              país.
+            </p>
+            <p>
+              El clima es más bien frío por la noche, pero durante el día,
+              creerás que estás en el paraíso. A 2.665 metros sobre el nivel del
+              mar, el monte Teza es uno de los lugares más fríos de la
+              provincia. Pero esa brisa fresca permite el crecimiento de una de
+              las mayores plantaciones de té y café del país, que constituyen la
+              mayor parte de las exportaciones de Burundi.
+            </p>
+            <p>
+              El Parque Nacional de Kibira, una de las mayores reservas de fauna
+              silvestre para simios, se extiende por cuatro provincias, incluida
+              Muramvya. Este Parque Nacional se encuentra en el vértice de las
+              hermosas montañas de la divisoria Congo-Nilo, que oscilan entre
+              los 1.550 y los 2.660 metros de altitud. Está lleno de hermosa
+              vegetación, y es una fuente para los diversos ríos y arroyos que
+              proporcionan agua en todo el país.
+            </p>
+          </li>
+          <li class="button place__button">
+            <a
+              class="buy-link"
+              href="https://www.theverge.com/22310188/nft-explainer-what-is-blockchain-crypto-art-faq"
+              target="_blank"
+              >Compra esta obra de arte como NFT</a
+            >
+          </li>
+        </ul>
+        <ul class="place">
+          <li class="place__title">
+            <h2 class="place__title-text">Toluca, México</h2>
+          </li>
+          <li class="place__artist">
+            <h4>
+              Artista<span class="place__artist-name"
+                >Sebastián Herrera, Asistente de MKT</span
+              >
+            </h4>
+          </li>
+          <li class="place__pic">
+            <img
+              class="place__pic"
+              src="./images/places/Toluca.jpg"
+              alt="Toluca-pic"
+            />
+          </li>
+          <li class="place__text">
+            <p>
+              La moderna y cada vez más industrializada Ciudad de Toluca ha
+              sabido preservar la gran herencia cultural y artística de su zona,
+              caracterizada por lo fértil de sus valles y por el genio artístico
+              de su gente. Su añeja historia nos remonta a los matlatzincas que
+              dejaron su huella en la zona arqueológica de Calixtlahuaca. En el
+              centro histórico de la ciudad todavía se respira la época
+              colonial, al caminar entre sus callejuelas angostas y casonas de
+              adobe revestido que nos llevan a los Portales donde los dulces
+              típicos y los conciertos de música llenan el ambiente. Ahí se
+              puede apreciar la arquitectura de la imponente Catedral con
+              reminiscencias romanas, la iglesia de la Merced y la parroquia la
+              Santa Veracruz.
+            </p>
+            <p>
+              También están el Jardín Botánico y su hermoso Cosmovitral, así
+              como innumerables museos de Arte, Pintura, Acuarela, Estampa y
+              Culturas Populares, tanto en el Centro Histórico como en el Centro
+              Cultural Mexiquense, donde están atesoradas las añejas raíces del
+              Estado de México. Desde las alturas, el Xinantécatl o Nevado de
+              Toluca observa impasible el valle y permite a los turistas llegar
+              hasta su cráter sin reservas.
+            </p>
+          </li>
+          <li class="button place__button">
+            <a
+              class="buy-link"
+              href="https://www.theverge.com/22310188/nft-explainer-what-is-blockchain-crypto-art-faq"
+              target="_blank"
+              >Compra esta obra de arte como NFT</a
+            >
+          </li>
+        </ul>
+      </section>
+      <section class="cover">
+        <h2 class="cover__title">Visítanos</h2>
+        <p class="cover__text">
+          Todo el año<span>Galería de Arte de Practicum</span
+          ><span>404, Avenida Tim Berners-Lee.</span>
+        </p>
+        <a
+          class="button cover__button"
+          href="https://www.theverge.com/22310188/nft-explainer-what-is-blockchain-crypto-art-faq"
+          target="_blank"
+          >Comprar entradas</a
+        >
+      </section>
     </main>
-    <footer class="footer"></footer>
+    <footer class="footer">
+      <p class="footer__copy">
+        &copy; 2023. <span class="copy_autor">Sebastián Herrera </span>
+      </p>
+    </footer>
   </body>
 </html>

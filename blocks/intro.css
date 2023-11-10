@@ -25,6 +25,16 @@
   width: 65%;
   margin: 0;
   padding-top: 42px;
+  text-align: justify;
+}
+
+.intro__quote {
+  color: #fff;
+  font-size: 24px;
+  font-family: "Inter", Helvetica, sans-serif;
+  font-weight: 400;
+  line-height: 34px;
+  text-align: right;
 }
 
 .intro__complementary {
@@ -38,13 +48,14 @@
   padding-top: 42px;
 }
 
-.intro__quote {
-  color: #fff;
-  font-size: 24px;
-  font-family: "Inter", Helvetica, sans-serif;
-  font-weight: 400;
-  line-height: 34px;
-  text-align: right;
+/* -------- */
+
+@media screen and (max-width: 1024px) {
+  .intro__complementary {
+    width: 90%;
+    padding-right: 16px;
+    padding-left: 16px;
+  }
 }
 
 @media screen and (max-width: 1024px) {
@@ -65,13 +76,6 @@
 }
 @media screen and (max-width: 1024px) {
   .intro__text {
-    width: 90%;
-    padding-right: 16px;
-    padding-left: 16px;
-  }
-}
-@media screen and (max-width: 1024px) {
-  .intro__complementary {
     width: 90%;
     padding-right: 16px;
     padding-left: 16px;
